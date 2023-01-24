@@ -1,7 +1,7 @@
 const { v4: uuidv4 } = require('uuid');
-const { inquirerMenu, leerInput, pausa } = require('./helpers/inquirer');
+const { inquirerMenu, leerInput, pausa } = require('./interior');
 const { sumar, restar, multiplicar, dividir } = require('./calculator');
-const { guardarDB, leerDB } = require('./helpers/guardarArchivo');
+const { guardarDB, leerDB } = require('./guardarArchivo');
 
 const main = async () => {
   let opt = '';
